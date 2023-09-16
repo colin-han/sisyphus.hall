@@ -10,7 +10,7 @@ import _ from 'lodash';
 
 const Form = generator("Form1", [
     ['properties', [
-        ['text', t.text().maxLength(1).placeholder('please input text')],
+        ['text', t.text().placeholder('please input text')],
         [t.separator()],
         ['isColorful', t.toggle()],
         [t._if('isColorful')
